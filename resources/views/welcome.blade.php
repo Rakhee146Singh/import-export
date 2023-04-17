@@ -48,7 +48,7 @@
                     <input type="file" name="file" class="form-control">
                     <br>
                     <button class="btn btn-success">Import User</button>
-                    <button action="{{ route('export-users') }}" class="btn btn-primary">Export User</button>
+                    <a href="{{ route('export-users') }}" class="btn btn-primary">Export User</a>
                 </form>
 
                 <table class="table">
